@@ -7,7 +7,7 @@ int main(int argc, char **argv) {
 
   // Option-transport array:
   int Options[1];
-  Options[0] = 1; // Used to enable "Simple" mode. See below.
+  Options[0] = 0; // Used to enable "Simple" mode. See below.
 
   // Parsing arguments
   for (int Argument = 1; Argument < argc; Argument++) {
