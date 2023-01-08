@@ -8,7 +8,8 @@ void GameWrapper(int *Options) {
   if (Options[0] == 1) {
     Simple2048();
     return;
-  }
+  } else
+    NCursesInit();
 
   return;
 }
